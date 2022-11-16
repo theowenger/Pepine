@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>cidrerie-pépine.fr</title>
+</head>
+
+<body>
+
+	<header class="headband" id="headband">
+
+		<a href="#main-container" class="logo-header"><img class="logo-header" src="./image/greenlogo.png"
+				alt="logo"></a>
+
+		<nav class="navigation" id="navigation">
+			<a href="#main-container" class="navigation-choice">
+				<h2>Acceuil</h2>
+			</a>
+			<a href="#team-card" class="navigation-choice">
+				<h2>La fine équipe</h2>
+			</a>
+			<a href="#value-card" class="navigation-choice">
+				<h2>Nos valeurs</h2>
+			</a>
+			<a href="#product-card" class="navigation-choice">
+				<h2>Nos produits</h2>
+			</a>
+			<a href="#contact-card" class="navigation-choice">
+				<h2>Contact</h2>
+			</a>
+		</nav>
+		<nav class="navigation-phone">
+			<button id="hamburger" class="hamburger">
+				<img src="./image/hamburger.png">
+		</nav>
+	</header>
+
+	<main class="main-container" id="main-container">
+
+		<div class="home-logo">
+			<img class="green-band" src="./image/multi-background.png">
+
+			<div class="logo-title">
+				<img class="logo-main" src="./image/orangelogo.PNG" alt="logo">
+				<h1 class="pepine-title">Cidrerie Artisanale</h1>
+			</div>
+			<img class="green-band" src="./image/multi-background.png">
+		</div>
+
+		<div class="container team-container">
+			<h2 class="title team-title" id="team-card">La fine equipe :</h2>
+			<article class="card">
+				<h3 class="card-description">Nous sommes un couple de Vergeze
+					(Gard)
+					habitant dans un mas centenaire au coeur de la nature du sud de la france. Voila
+					deux
+					ans
+					que nous nous sommes lancés dans l'aventure de la creation artisanale de Cidre
+					d'aperitif !
+				</h3>
+				<img class="card-img card-img-team" src="./image/we-are.jpg">
+
+
+		</article>
+		</div>
+
+		<div class="container icon-container">
+			<h2 class="title icon-title" id="value-card">Nos Valeurs</h2>
+			<article class="card card-icon">
+
+				<div class="label-icon-unite label-bio">
+					<img src="./image/icon-bio.png">
+					<h2>Produits 100% BIO</h2>
+				</div>
+				<div class="label-icon-unite label-cider">
+					<img src="./image/cider.png">
+					<h2> Fabrication Artisanale</h2>
+				</div>
+				<div class="label-icon-unite label-friend">
+					<img src="./image/friend.png">
+					<h2>Convivialité garantie !</h2>
+				</div>
+				<div class="label-icon-unite label-cocktail">
+					<img src="./image/cocktail.png">
+					<h2>Cidre d'aperitif</h2>
+				</div>
+				<div class="label-icon-unite label-apple">
+					<img src="./image/apple.png">
+					<h2>Riche en antioxidants</h2>
+				</div>
+			</article>
+		</div>
+
+
+		<div class="container cider-container">
+			<h2 class="title cider-title" id="product-card">Le Cidre</h2>
+			<article class="card">
+
+				<h3 class="card-description">Exit la crepe sucrée, la bolinette et le
+					cidre
+					de normandie... Chez Pepine nous avons decidé de reinventer la manière de boire du Cidre.
+					Chez
+					nous vous decouvrirez un cidre d'aperitif doux, sucré et frais !
+				</h3>
+
+			</article>
+			<img class="card-img card-img-cider" src="./image/cider.jpg">
+		</div>
+
+		<div class="container applejuice-container">
+
+			<h2 class="title applejuice-title">Le Jus de Pomme</h2>
+			<article class="card">
+				<h3 class="card-description">PEPINE elargit sa gamme de produits
+					avec un
+					delicieux jus de pomme pressé. Dès le matin, Pepine s'invite dans votre petit dejeuner avec
+					ce
+					jus sucré pour faire le plein de vitamines !
+				</h3>
+			</article>
+			<img class="card-img card-img-cider" src="./image/ciderglass.jpg">
+		</div>
+
+		<div class="container contact-container">
+
+			<h2 class="title contact-title">Contactez nous : </h2>
+			<section class="form-container" id="contact-card">
+				<form action="" method="get" class="form-contact">
+					<div class="contact-first">
+					<div class="form-contact">
+						<label for="lastname"></label>
+						<input class="input-contact" type="text" name="lastname" id="lastname" placeholder="Nom"
+							required>
+					</div>
+					<div class="form-contact">
+						<label for="firstname"></label>
+						<input class="input-contact" type="text" name="firstname" id="firstname" placeholder="Prenom"
+							required>
+					</div>
+
+					<div class="form-contact">
+						<label for="city"></label>
+						<input class="input-contact" type="text" name="city" id="city" placeholder="Ville" required>
+					</div>
+
+					<div class="form-contact">
+						<label for="phone"></label>
+						<input class="input-contact" type="tel" name="phone" id="phone" placeholder="N° de telephone"
+							required>
+					</div>
+
+					<div class="form-contact">
+						<label for="email"></label>
+						<input class="input-contact" type="email" name="email" id="email" placeholder="adresse mail"
+							required>
+					</div>
+					</div>
+					<div class="contact-second">
+						<div class="form-contact">
+						<label for="message"></label>
+						<textarea class="input-contact" type="text" name="message" id="message" placeholder="ecrivez nous ;)"></textarea>
+					</div>
+					<div class="form-contact">
+						<input type="submit" class="button-contact" value="Contactez nous!">
+					</div>
+					</div>
+				</form>
+
+			</section>
+		</div>
+	</main>
+
+	<footer class="container contact-container">
+		<nav class="social">
+			<h2 class="title social-title">Nous retrouver:</h2>
+			<div class="social-icon">
+				<div class="social-icon-unite">
+
+					<a href="https://www.facebook.com/pepinecompletementcidree/" target="_blank">
+						<img src="./image/facebook.png" class="img-icon">
+					</a>
+					<h3>Cidrerie Pépine</h3>
+				</div>
+
+				<div class="social-icon-unite">
+					<a href="https://www.instagram.com" target="_blank">
+						<img src="./image/instagram.png" class="img-icon">
+					</a>
+					<h3>pepine_completement_cidree</h3>
+				</div>
+
+				<div class="social-icon-unite">
+					<a href="https://www.whatsapp.com/" target="_blank">
+						<img src="./image/whatsapp.png" class="img-icon">
+					</a>
+					<h3>06.07.55.35.68</h3>
+				</div>
+			</div>
+		</nav>
+		<div class="container-adress">
+		<nav class="adress">
+			<h2>Adresse:</h2>
+			<h3>Mas Chapel</h3>
+			<h3>1500 chemin de minteau</h3>
+			<h3>Vergèze, France</h3>
+			<h3>06 07 55 35 68</h3>
+		</nav>
+
+		<nav class="site-plan">
+			<h2>Plan du site:</h2>
+			<h3>Mentions Legales</h3>
+			<h3>Contact</h3>
+			<h3>Cidrerie Pepine ©, 2022</h3>
+		</nav>
+		</div>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

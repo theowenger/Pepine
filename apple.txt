@@ -1,0 +1,39 @@
+Apple :
+
+		<div class="apple"></div>
+
+.apple {
+	width:18em;
+	height:15em;
+	background-color:  #ff4355;
+	box-shadow: inset 0.6em -0.6em  #cc1022;
+	border-radius: 6em 6em 9em 9em;
+	position:absolute;
+	top: 55em;
+	left: 20em;
+opacity: 0.3;
+  }
+  
+  .apple:before {
+	top:-.6em;
+	left:5.4em;
+	content:"";
+	width:12.3em;
+	height:8.25em;
+	background-color: inherit;
+	border-radius: 9em 9em 0 0 ;
+	position: absolute;
+	box-shadow:-4.5em 0 0   #ff4355, inset .6em 0.6em  #ff4355;
+  }
+  
+  .apple:after{
+	content:"";
+	width: 0.6em;
+	height: 3em;
+	background-color:brown;
+	position:absolute;
+	z-index: 2;
+	top: -1.5em;
+	left: 9em;
+  }
+
